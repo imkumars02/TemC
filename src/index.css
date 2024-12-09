@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(118, 139, 158);
+  color: rgb(255, 255, 255);
+}
+
+/* Adjust font size for screens wider than 900px */
+@media (min-width: 901px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+/* Adjust font size for screens narrower than 900px */
+@media (max-width :900px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media (max-width :768px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+/* Adjust font size for screens narrower than 320px */
+@media (max-width : 420px) {
+  html {
+    font-size: 58%;
+  }
+}
+/* Adjust font size for screens narrower than 320px */
+@media (max-width : 320px) {
+  html {
+    font-size: 60%;
+  }
+}
